@@ -1,4 +1,7 @@
 # Presenting... RecetaYa!
+<p align="center">
+<img width="256" height="256"  alt="logoRecetasYa" src="https://github.com/user-attachments/assets/852252e6-7a38-4bf6-8d18-4a003da05599" />
+</p>
 
 _*Have you ever wanted to cook something nice on a student budget?*_  
 
