@@ -1,77 +1,91 @@
-# Presenting... RecetaYa!
-<p align="center">
-<img width="256" height="256" alt="logoRecetasYa" src="https://github.com/user-attachments/assets/33cd7178-7225-437a-8ef6-7e3f67e92575" />
-</p>
+# Gruber 🚚
 
-_*Have you ever wanted to cook something nice on a student budget?*_  
+## Propuesta de Valor y Diferenciador
 
-_*Ever looked up a recipe and realized you’re missing ingredients?*_
+### ¿Por qué usar Gruber?
+- Disminuye los tiempos de respuesta en la solicitud de grúas, evitando pérdidas económicas por la inmovilización de vehículos.
+- Aumenta la productividad y la satisfacción del cliente final de las aseguradoras.
 
-**RecetaYa** is a project designed to help people decide what to cook based on the ingredients they already have at home.  
-It focuses on a very common situation: having food available but not knowing what recipes can be made with it. :>
+### Beneficio principal
+- Optimización del proceso de solicitud de grúas mediante flujos digitales, eliminando la dependencia de múltiples llamadas telefónicas y gestiones manuales dispersas.
 
----
-
-## 💭 Project Idea
-
-Many people have ingredients in their fridge or pantry but don’t know what recipes they can prepare with them.  
-This often leads to food waste, time wasted searching for recipes, and frustration when cooking.
-
-RecetaYa aims to simplify this process by suggesting meals based on what the user already has.
+### Diferenciador
+- Solución centrada en **software y aplicación móvil**, sin depender de call centers extensos.
+- Enfoque visual tipo **Uber**, orientado a rapidez y claridad en la gestión de siniestros.
 
 ---
 
-## ❓ What Problem Does It Solve?
+## Información General del Proyecto
 
-- Difficulty deciding what to cook with available ingredients  
-- Food waste caused by unused products  
-- Time lost searching for recipes online  
-- Frustration when cooking at home  
-
----
-
-## 👥 Who Is Affected?
-
-This problem mainly affects:
-
-- University students living alone  
-- Families with limited budgets  
-- Young people with little cooking experience  
-- People interested in reducing food waste  
+| **Elemento** | **Detalle** |
+| --- | --- |
+| **Nombre** | Gruber |
+| **Propuesta** | Servicio de grúas en minutos vía aplicación, orientado a empresas y aseguradoras |
+| **Usuarios** | Aseguradoras y empresas (clientes directos); usuarios finales a través de la cobertura del seguro |
+| **Interfaz** | Mapa tipo Uber con grúas simuladas y flujo básico de solicitud |
+| **Entregables** | Presentación PDF, Lean Canvas, README, documentación/wiki y boilerplate en GitHub |
 
 ---
 
-## Benefits
+## Roles y Responsabilidades del Equipo
 
-- ⏱️ Saves time when planning meals  
-- ♻️ Reduces food waste  
-- 💸 Supports cooking on a student budget  
-- 🍳 Improves decision-making when cooking at home  
+### 🧑‍💼 Project Manager / Scrum Master – John Rubio
+- Coordinación de reuniones y comunicación con el profesor (cliente).
+- Distribución de tareas semanales.
+- Apoyo transversal a backend, frontend y QA.
 
-### What makes it different?
-Unlike generic recipe websites or apps that assume users already have all the required ingredients, RecetaYa reverses the process.  
-It adapts recipe suggestions to the ingredients the user actually has, offering personalized options and alternatives.
+### 🧠 Backend Developer – Juan Pablo Álvarez
+- Diseño e implementación de la lógica principal del sistema.
+- Desarrollo de la capa de persistencia.
+- Exposición de datos al frontend mediante servicios.
+
+### 🎨 Frontend Developer – Nicolás Sánchez
+- Diseño y construcción de la interfaz de usuario.
+- Implementación del mapa, formularios y vistas principales.
+- Integración del logo y lineamientos visuales de la marca Gruber.
+
+### 📝 Documentador / Repo Manager – Lucas Rincón
+- Redacción y mantenimiento de la documentación del proyecto.
+- Organización de la wiki o carpeta `/docs`.
+- Actualización del repositorio con entregables y diagramas.
+
+### 🧪 Tester / QA – David Orjuela
+- Definición y ejecución de pruebas funcionales y de persistencia.
+- Validación del cumplimiento de requisitos.
+- Apoyo en la detección y corrección de errores.
 
 ---
 
-## 🤝 Team
+## Descripción y Alcance del Proyecto
 
-**The team behind RecetaYa:**
+### Descripción
+**Gruber** es una startup ficticia orientada a ofrecer a **empresas y aseguradoras** una solución de software que permita solicitar servicios de grúa en tiempo récord, reduciendo tiempos muertos y pérdidas económicas asociadas a siniestros o fallas vehiculares.
 
-- Alejandro Corredor  
-- Germán Rodríguez  
-- Juan Pablo Sánchez  
-- Salomé Ávila  
+### Tipo de problema
+- Organizacional y de productividad.
+- Procesos actuales lentos, manuales y poco centralizados.
 
----
-
-## 🛠️ Development
-
-This project was developed by **JSAG Solutions**.
+### Público objetivo
+- **Directo:** aseguradoras y empresas que gestionan flotas o siniestros.
+- **Indirecto:** usuarios finales que acceden al servicio mediante su aseguradora.
 
 ---
 
-## 📌 Final Note
+## Alcance Funcional de la Demo
 
-RecetaYa encourages smarter cooking habits by helping users make the most out of what they already have — especially when time, money, and ingredients are limited.
+- Aplicación con interfaz de mapa tipo Uber.
+- Visualización de grúas disponibles de forma simulada.
+- Registro de solicitudes de grúa desde un origen hasta un destino.
+- Simulación de disponibilidad de grúas mediante lógica simple o generación aleatoria.
 
+### Simulación
+- No existe conexión con grúas reales.
+- Las posiciones y estados de las grúas son simulados.
+- La simulación es coherente con el flujo funcional explicado en la presentación del proyecto.
+
+---
+
+## Materia
+
+**Fundamentos de Desarrollo de Software**  
+Proyecto académico desarrollado como parte del curso.
