@@ -1,118 +1,74 @@
-# fis_boilerplate
-## Descripción de cada directorio y archivos
-```bash
-project-name/
-├── .github/
-│   ├── ISSUE_TEMPLATE/
-│   │   ├── bug_report.md
-│   │   ├── feature_request.md
-│   ├── PULL_REQUEST_TEMPLATE.md
-│   └── workflows/
-│       ├── ci.yml
-│       └── cd.yml
-├── conf/
-│   ├── config.yaml
-│   └── settings.json
-├── docs/
-│   ├── api/
-│   ├── architecture/
-│   └── user_guide/
-├── jupyter/
-│   ├── notebooks/
-│   │   ├── exploration.ipynb
-│   │   └── analysis.ipynb
-│   └── datasets/
-│       ├── data1.csv
-│       └── data2.csv
-├── scripts/
-│   ├── setup.sh
-│   ├── deploy.sh
-│   └── test.sh
-├── src/
-│   ├── main/
-│   │   ├── java/ (o python/, etc. según el lenguaje)
-│   │   └── resources/
-│   ├── test/
-│   │   ├── java/ (o python/, etc. según el lenguaje)
-│   │   └── resources/
-├── temp/
-│   ├── temp_file.txt
-│   └── temp_data/
-│       ├── temp1.tmp
-│       └── temp2.tmp
-├── .gitignore
-├── README.md
-├── LICENSE
-├── CHANGELOG.md
-├── CONTRIBUTING.md
-├── Dockerfile
-├── docker-compose.yml
-└── Makefile
-```
+# Presenting... RecetaYa!
 
+_*Have you ever wanted to cook something nice on a student budget?*_  
 
-### .github/
-Contiene configuraciones específicas para GitHub, como plantillas para problemas (issues) y solicitudes de extracción (pull requests), y flujos de trabajo de GitHub Actions para integración continua (CI) y despliegue continuo (CD).
+_*Ever looked up a recipe and realized you’re missing ingredients?*_
 
-- `ISSUE_TEMPLATE/`: Plantillas para reportar bugs y solicitar nuevas características.
-- `workflows/`: Archivos YAML para definir los flujos de trabajo de CI/CD.
+**RecetaYa** is a project designed to help people decide what to cook based on the ingredients they already have at home.  
+It focuses on a very common situation: having food available but not knowing what recipes can be made with it. :>
 
-### docs/
-Documentación del proyecto.
+---
 
-- `api/`: Documentación de la API.
-- `architecture/`: Diagramas y documentación de la arquitectura.
-- `user_guide/`: Guías para usuarios.
+## 💭 Project Idea
 
-### src/
-Código fuente del proyecto.
+Many people have ingredients in their fridge or pantry but don’t know what recipes they can prepare with them.  
+This often leads to food waste, time wasted searching for recipes, and frustration when cooking.
 
-- `main/`: Código fuente principal.
-  - `java/` (o `python/`, etc.): Código fuente del proyecto según el lenguaje utilizado.
-  - `resources/`: Archivos de recursos como configuraciones y otros archivos necesarios.
-- `test/`: Código de pruebas.
-  - `java/` (o `python/`, etc.): Código de pruebas unitarias y de integración.
-  - `resources/`: Archivos de recursos para las pruebas.
+RecetaYa aims to simplify this process by suggesting meals based on what the user already has.
 
-### scripts/
-Scripts útiles para tareas comunes como configuración, despliegue y pruebas.
+---
 
-- `setup.sh`: Script para configurar el entorno de desarrollo.
-- `deploy.sh`: Script para despliegue.
-- `test.sh`: Script para ejecutar pruebas.
+## ❓ What Problem Does It Solve?
 
-### conf/
-Carpeta para archivos de configuración.
+- Difficulty deciding what to cook with available ingredients  
+- Food waste caused by unused products  
+- Time lost searching for recipes online  
+- Frustration when cooking at home  
 
-- `config.yaml`: Archivo de configuración en formato YAML.
-- `settings.json`: Archivo de configuración en formato JSON.
+---
 
-### jupyter/
-Carpeta para los notebooks de Jupyter y datasets utilizados.
+## 👥 Who Is Affected?
 
-- `notebooks/`: Carpeta para los notebooks de Jupyter.
-  - `exploration.ipynb`: Notebook para la exploración de datos.
-  - `analysis.ipynb`: Notebook para el análisis de datos.
-- `datasets/`: Carpeta para los datasets utilizados en los notebooks.
-  - `data1.csv`: Ejemplo de dataset en formato CSV.
-  - `data2.csv`: Otro ejemplo de dataset en formato CSV.
+This problem mainly affects:
 
-### temp/
-Carpeta para archivos temporales.
+- University students living alone  
+- Families with limited budgets  
+- Young people with little cooking experience  
+- People interested in reducing food waste  
 
-- `temp_file.txt`: Archivo temporal de ejemplo.
-- `temp_data/`: Subcarpeta para datos temporales.
-  - `temp1.tmp`: Archivo temporal de ejemplo.
-  - `temp2.tmp`: Otro archivo temporal de ejemplo.
+---
 
-### Archivos en la raíz del proyecto
+## Benefits
 
-- `.gitignore`: Archivo para especificar qué archivos y directorios deben ser ignorados por Git.
-- `README.md`: Descripción general del proyecto, instrucciones de instalación, uso, contribución, etc.
-- `LICENSE`: Información sobre la licencia del proyecto.
-- `CHANGELOG.md`: Registro de cambios en el proyecto.
-- `CONTRIBUTING.md`: Guía para contribuir al proyecto.
-- `Dockerfile`: Archivo para construir la imagen Docker del proyecto.
-- `docker-compose.yml`: Archivo de configuración para Docker Compose.
-- `Makefile`: Archivo para automatizar tareas mediante comandos `make`.
+- ⏱️ Saves time when planning meals  
+- ♻️ Reduces food waste  
+- 💸 Supports cooking on a student budget  
+- 🍳 Improves decision-making when cooking at home  
+
+### What makes it different?
+Unlike generic recipe websites or apps that assume users already have all the required ingredients, RecetaYa reverses the process.  
+It adapts recipe suggestions to the ingredients the user actually has, offering personalized options and alternatives.
+
+---
+
+## 🤝 Team
+
+**The team behind RecetaYa:**
+
+- Alejandro Corredor  
+- Germán Rodríguez  
+- Juan Pablo Sánchez  
+- Salomé Ávila  
+
+---
+
+## 🛠️ Development
+
+This project was developed by **JSAG Solutions**.
+
+---
+
+## 📌 Final Note
+
+RecetaYa encourages smarter cooking habits by helping users make the most out of what they already have — especially when time, money, and ingredients are limited.
 
